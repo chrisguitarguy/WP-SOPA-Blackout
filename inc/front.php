@@ -40,5 +40,5 @@ add_filter( 'wp_title', 'cd_sopablackout_fix_title' );
  */
 function cd_sopablackout_fix_title( $title )
 {
-    return sprintf( __( 'Stop American Censorship | %s' ), get_bloginfo( 'name' ) );
+    return sprintf( __( 'Stop United States Censorship | %s' ), get_bloginfo( 'name' ) );
 }
